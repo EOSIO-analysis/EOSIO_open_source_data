@@ -42,7 +42,7 @@ In short, you can use the data by using networkx as follows:
 
 The defination of ECIG is:
 
-<img src="https://render.githubusercontent.com/render/math?math=ECIG = (V,E,D,A,f), E={(v_{i}, v_{j}, D_{k}), v_{i}, v_{j} \in V, D_{k} \subseteq D} ">
+<img src="https://render.githubusercontent.com/render/math?math=ECIG = (V,E,D,A,f), E={(v_{i}, v_{j}, D_{k}, A_{k}),}v_{i}, v_{j} \in V, D_{k} \subseteq D, A_{k} \subseteq A.">
 
 In short, you can use the data by using networkx as follows:
 
