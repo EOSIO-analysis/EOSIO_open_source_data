@@ -24,7 +24,7 @@ We will explain all the graph data below:
 
 The defination of EMFG is:
 
-<img src="https://render.githubusercontent.com/render/math?math=EMFG=(V, E, D, w), E={(v_{i}, v_{j}, D_{k}), v_{i}, v_{j} \in V, D_{k} \subseteq D} = -1">
+<img src="https://render.githubusercontent.com/render/math?math=EMFG=(V, E, D, w), E={(v_{i}, v_{j}, D_{k}), v_{i}, v_{j} \in V, D_{k} \subseteq D} ">
 
 In short, you can use the data by using networkx as follows:
 
@@ -42,7 +42,7 @@ In short, you can use the data by using networkx as follows:
 
 The defination of ECIG is:
 
-<img src="https://render.githubusercontent.com/render/math?math=ECIG = (V,E,D,A,f), E={(v_{i}, v_{j}, D_{k}), v_{i}, v_{j} \in V, D_{k} \subseteq D} = -1">
+<img src="https://render.githubusercontent.com/render/math?math=ECIG = (V,E,D,A,f), E={(v_{i}, v_{j}, D_{k}), v_{i}, v_{j} \in V, D_{k} \subseteq D} ">
 
 In short, you can use the data by using networkx as follows:
 
@@ -57,7 +57,7 @@ In short, you can use the data by using networkx as follows:
 
 The defination of EACG is 
 
-<img src="https://render.githubusercontent.com/render/math?math=EACG=(V,E,D), E={(v_{i}, v_{j}, d), v_{i}, v_{j} \in V, d \in D} = -1">
+<img src="https://render.githubusercontent.com/render/math?math=EACG=(V,E,D), E={(v_{i}, v_{j}, d), v_{i}, v_{j} \in V, d \in D} ">
 
 In short, you can use the data by using networkx as follows:
 
