@@ -64,7 +64,7 @@ In short, you can use the data by using networkx as follows:
 ```python
 >>> import networkx as nx
 >>> EACG = nx.read_gpickle("EACG.gpickle")
->>> printE(ACG['tp']['zhanggang.tp'])
+>>> print(EACG['tp']['zhanggang.tp'])
 {'2019 04 23': 1}
 ```
 ### groundtruth for bot detection
