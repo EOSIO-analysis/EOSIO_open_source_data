@@ -16,7 +16,7 @@ Here is the list of our graph data:
 > * EACG.gpickle -- 87MB
 > * ECIG.gpickle -- 1GB
 
-Considering the size of the data, it is very hard to upload them all to the github. So we upload full-version data to *mendeley*.
+Considering the size of the data, it is very hard to upload them all to the github. So we upload full-version data to *MEGA*. Please download from here: https://mega.nz/folder/PAQ2kSxT#OCXMwRvOK65qFW561Pm2Ow
 
 We will explain all the graph data below:
 
@@ -67,6 +67,9 @@ In short, you can use the data by using networkx as follows:
 >>> print(EACG['tp']['zhanggang.tp'])
 {'2019 04 23': 1}
 ```
+
+## Bot
+
 ### groundtruth for bot detection
 
 Due to the Confidentiality agreement with our partner, peckshield, we can not publish the groundtruth here directly. Please contact huangyuheng@bupt.edu.cn if you are interested.
@@ -97,5 +100,6 @@ The features for per-account level detection in our paper are as follows:
 - invoke contract num means the number of contracts the account invoked.
 - invocation num means the number of invocations.
 - invocation std means the standard deviation of invocation time array.
-- activate time means the time one account being active (i.e. invoke contract of transfer money)
+- activate time means the time one account being active (i.e. invoke contract of transfer money). It is represented by activate date / total time
 - siblings in same day means the number of siblings of one account created in one day. (sibling: accounts created by same parent)
+
