@@ -68,3 +68,34 @@ In short, you can use the data by using networkx as follows:
 {'2019 04 23': 1}
 ```
 ### groundtruth for bot detection
+
+Due to the Confidentiality agreement with our partner, peckshield, we can not publish the groundtruth here directly. Please contact huangyuheng@bupt.edu.cn if you are interested.
+
+### Feature for per-account level bot detection
+
+The features for per-account level detection in our paper are as follows:
+| feature                | bots(avg) | normal(avg) |
+| ---------------------- | --------- | ----------- |
+| ACG depth              | 4.3       | 1.8         |
+| transferIn std         | 40.8      | 954         |
+| transferOut std        | 57.3      | 1267.3      |
+| volume per transferIn  | 2.2       | 104         |
+| volume per transferOut | 6.2       | 553.1       |
+| transfer target num    | 5.9       | 12.6        |
+| invoke contract num    | 16.1      | 3.2         |
+| invocation num         | 518.5     | 2312.7      |
+| invocation std         | 6.2       | 40.3        |
+| activate time          | 74.6%     | 13.4%       |
+| siblings in same day   | 1724.1    | 117024.4    |
+
+- ACG depth means the depth of one account in ACG.
+- transferIn std means the standard deviation of transfer in volume time array.
+- transferOut std means the standard deviation of transfer out volume time array.
+- volume per transferIn means the total transfer in volume divided by transfer out times.
+- volume per transferOut means the total transfer in volume divided by transfer out times.
+- transfer target num means the number of transfer target.
+- invoke contract num means the number of contracts the account invoked.
+- invocation num means the number of invocations.
+- invocation std means the standard deviation of invocation time array.
+- activate time means the time one account being active (i.e. invoke contract of transfer money)
+- siblings in same day means the number of siblings of one account created in one day. (sibling: accounts created by same parent)
